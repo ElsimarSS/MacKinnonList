@@ -1,16 +1,16 @@
-#Análise da avifauna no RStudio do levantamento ou monitoramento da avifauna através das listas de MacKinnon (listas de 10 espécies).
+# Análise da avifauna no RStudio do levantamento ou monitoramento da avifauna através das listas de MacKinnon (listas de 10 espécies).
 
-##Pasta de dados:
+## Pasta de dados:
 Exemplos de dados: lista_aves_camp, lista_aves_mack e ifl, que corresponde a um levantamento da avifauna.
 
-##Pasta scritps:
-###1º passo
+## Pasta scritps:
+### 1º passo
 Para a curva de rarefação por campanhas usar o código: rarefacao_camp 
 
-###2º passo
+### 2º passo
 Para a curva das listas de MacKinnon por campanha usar o código: rarefacao_mack
 
-###3º passo
+### 3º passo
 Para a gráfico do índice de frequência de listas - IFL (espécies por listas) usar o código: ifl_lista_mack
 
 Referências
