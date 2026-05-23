@@ -15,3 +15,12 @@ Para a gráfico do índice de frequência de listas - IFL (espécies por listas)
 
 Referências
 RIBON, 2010. Amostragem de Aves pelo Método de Listas de Mackinnon. In: VON MATTER, S.; STRAUBE, F. C.; ACCORDI, I. A.; PIACENTINI, V. DE Q.; CÂNDIDO JR., J. F. (Org). Ornitologia e Conservação: Ciência Aplicada, Técnicas de Pesquisa e Levantamento. 1º Edição, Rio de Janeiro, Technical Books, 516p.
+
+
+## Licença
+### Scripts
+Os scripts R e demais códigos deste repositório estão disponibilizados sob a licença MIT.
+### Dados
+Os dados deste repositório estão disponibilizados sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0).
+Ao reutilizar os dados ou o código, cite os autores do projeto e este repositório.
+© 2026 Elsimar S Silva
