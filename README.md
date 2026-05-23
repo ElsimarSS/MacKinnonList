@@ -21,6 +21,6 @@ RIBON, 2010. Amostragem de Aves pelo Método de Listas de Mackinnon. In: VON MAT
 Os scripts R e demais códigos deste repositório estão disponibilizados sob a licença MIT.
 ### Dados
 Os dados deste repositório estão disponibilizados sob a licença Creative Commons Attribution 4.0 International (CC BY 4.0).
-Ao reutilizar os dados ou o código, cite os autores do projeto e este repositório.
 
+Ao reutilizar os dados ou o código, cite os autores do projeto e este repositório.
 © 2026 Elsimar S Silva
