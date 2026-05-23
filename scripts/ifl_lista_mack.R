@@ -4,10 +4,15 @@
 
 # 0. Rodar os pacotes
 library(readxl)
+library(vegan)
 library(ggplot2)
+install.packages("here")
+library(here)
+library(readr)
 
-# 1. Ler a tabela do Excel
-ifl <- read_excel("ifl.xlsx")
+# 1. Ler dados
+ifl <- read_csv2(here("dados", "ifl.csv")) #read_csv2() é para arquivos no padrão brasileiro/europeu (, e ;)
+print(ifl, n = Inf)
 
 # 2. Renomear colunas para facilitar (assumindo que são 'Especie' e 'IFL')
 colnames(ifl) <- c("Especie", "IFL")

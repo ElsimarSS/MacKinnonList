@@ -6,15 +6,19 @@
 library(readxl)
 library(vegan)
 library(ggplot2)
+install.packages("here")
+library(here)
+library(readr)
 
 # 1. Ler dados
-dadosc <- read_excel("lista_aves_camp.xlsx")
+rar <- read_csv(here("dados", "lista_aves_camp.csv"))
+print(rar, n = Inf)
 
 # 2. Extrair nomes de espécies
-especies <- dadosc[[1]]
+especies <- rar[[1]]
 
 # 3. Substituir NAs por 0 e transformar em matriz presença/ausência
-matriz <- dadosc[,-1]
+matriz <- rar[,-1]
 matriz[is.na(matriz)] <- 0
 matriz <- as.matrix(matriz)
 mode(matriz) <- "numeric"
